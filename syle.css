@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.banner{
+    height: 35vh;
+}
+
+.list-group-item ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li h5 {
+    padding: .3rem;
+    margin: 0;
+}
+
+ul li span {
+    cursor: default;
+    display: block;
+    padding: 1rem 2rem;
+
+}
+
+.more-section {
+    background: #acacac;
+}
+
+.footer {
+    background: #919191;
+}
